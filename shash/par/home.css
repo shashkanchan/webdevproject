@@ -1,0 +1,147 @@
+body{
+	background-image:url("images/home.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+}
+
+h1{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:50px;
+    font-weight:800;
+    letter-spacing: 15px;
+    font-size: 65px;
+    color: rgb(50, 51, 9);
+
+
+}
+
+.container{
+    text-align:center;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.container span{
+    color:rgb(0, 0, 0);
+    display: block;
+}
+
+.text1, .text2, .text3, .text4, .text5, .text6{
+    font-size: 50px;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
+    position:center;
+    animation: text 3s 1;
+	border-radius:5px;
+	width:75%;
+	padding: 5px;
+	background:rgba(56, 172, 157, 0.199); 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.text2, .text4, .text6{
+    margin-left: auto;
+}
+
+
+
+@keyframes text {
+    0%{
+        color:rgba(204, 235, 92, 0.158);
+        margin-bottom: 0px;
+
+    }
+
+    30%{
+        color:rgba(204, 235, 92, 0.158);
+        letter-spacing: 7px;
+        margin-bottom:0px;
+    }
+  
+    85%{
+        letter-spacing:2px;
+        margin-bottom: 0px;
+    }
+
+}
+
+a:hover{
+	color:rgb(138, 125, 143);
+}
+
+
+
+ul {
+	background:rgba(255, 255, 255, 0);
+	padding:20px;
+	text-align: right;
+}
+
+li{
+	margin:19px;
+	display:inline;
+	text-decoration: none;
+	padding:20px;
+}
+.log{
+    text-transform:uppercase;
+	font-size: 13px;
+	font-weight:bold;
+	margin-top:35px;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 5px;
+	color:rgb(60, 70, 16);
+}
+
+.log:hover{
+    font-style:italic;
+    color:aqua;
+}
+
+
+a{
+	text-decoration: none;
+	color:rgb(15, 75, 80);
+	font-weight:bold;
+}
+
+li:hover{
+	background:rgb(205, 223, 146);
+}
+
+header{
+    font-size: 12px;
+    text-align:left;
+    display: block;
+    margin-top:35px;
+    font-weight:bold;
+    letter-spacing: 8px;
+    animation: text 8s infinite;
+	border-radius:5px;
+    background: -webkit-linear-gradient(rgb(20, 95, 129), rgb(113, 113, 116));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Impact, Haettenschweiler, sans-serif;
+
+}
+.cap{
+    
+	border-radius:15px;
+	width:20%;
+	margin:50px auto;
+	padding: 5px;
+	outline: none;
+    background: -webkit-linear-gradient(rgba(158, 235, 187, 0.664), rgba(108, 227, 243, 0.664));
+    -webkit-text-fill-color:rgb(8, 54, 20);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+

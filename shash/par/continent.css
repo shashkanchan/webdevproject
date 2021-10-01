@@ -1,0 +1,129 @@
+body{
+	background-image:url("images/data.jpg");
+	font-family: 'Times New Roman', Times, serif;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+   
+    
+}
+
+
+  fieldset{
+	width:25%;
+	margin:20px auto;
+	padding:20px auto;
+    text-align:center;
+	background:rgba(144, 156, 31, 0.3);
+    font-size:20px;
+    border: none;
+    color:white;
+    border-radius: 15px;
+}
+legend{
+	border:none;
+    font-size: 35px;
+	border-radius: 3px;
+	padding:5px auto;
+	text-align: center;
+	background: rgba(102, 84, 23, 0.726);
+	width:35% auto;
+	margin:2px auto;
+	display: inline;
+    color: rgb(208, 217, 247);
+
+}
+
+button{
+	border-radius:15px;
+    border:none;
+	width: 30px auto;
+	margin:20px auto;
+	padding: 5px;
+	outline: none;
+	background:#0f587a98;
+    color: rgb(255, 203, 144);
+	cursor:pointer;
+}
+
+button:hover{
+  background:rgba(153, 101, 130, 0.438);
+}
+
+.list1{
+	border-radius:15px;
+	width:20%;
+	margin:50px auto;
+	padding: 5px;
+	outline: none;
+	background:rgba(204, 204, 204, 0.938);
+    color:rgb(59, 37, 9);
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+}
+
+.list1:hover{
+  background:rgba(153, 101, 130, 0.438);
+}
+
+
+
+a{
+	text-decoration: none;
+	color:rgb(158, 56, 87);
+	font-weight:bold;
+}
+
+
+a:hover{
+	color:rgb(14, 49, 73);
+}
+
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 14px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    color:rgb(16, 97, 90);
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: rgb(0, 153, 122);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 15px 20px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid rgb(222, 222, 222);
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: rgb(242, 242, 242);
+  }
+
+  .content-table tbody tr:nth-of-type(odd) {
+    background-color: rgba(204, 204, 204, 0.938);
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(69, 75, 19);
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgb(92, 100, 30);
+  }
+  

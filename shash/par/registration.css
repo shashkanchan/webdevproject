@@ -1,0 +1,79 @@
+body{
+	background-image:url("images/registration.jpg");
+	font-family: 'Times New Roman', Times, serif;
+	color:white;
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+    text-align:center;
+    
+}
+a{
+	text-decoration: none;
+	color:rgb(78, 94, 93);
+    
+}
+::-webkit-input-placeholder{
+    font-family:Cambria, 'Cochin', Georgia, Times, Times New Roman, serif;
+    color:rgb(105, 156, 131);
+    background:rgba(255, 255, 255, 0.575);
+    border:rgba(245, 245, 220, 0.418);
+    padding:5px;
+}
+
+a:hover{
+    color:rgb(155, 37, 92);
+}
+fieldset{
+	width:25%;
+	margin:20px auto;
+	padding:20px auto;
+	background:rgba(144, 156, 31, 0.3);
+    font-size:20px;
+    border: none;
+	border-radius: 15px;
+    color:white;
+}
+legend{
+	border:none;
+    font-size: 35px;
+	border-radius: 3px;
+	padding:5px auto;
+	text-align: center;
+	background: rgba(102, 84, 23, 0.726);
+	width:35% auto;
+	margin:2px auto;
+	display: inline;
+    color: rgb(208, 217, 247);
+
+}
+button{
+	border-radius:15px;
+    border:none;
+	width: 30px auto;
+	margin:20px auto;
+	padding: 5px;
+	outline: none;
+	background:#0f587a98;
+    color: rgb(255, 203, 144);
+	cursor:pointer;
+}
+
+button:hover{
+	background:rgba(153, 101, 130, 0.438);
+}
+
+header{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top:35px;
+    font-weight:bold;
+    letter-spacing: 20px;
+	border-radius:5px;
+    background: -webkit-linear-gradient(rgba(144, 156, 31, 0.808), rgba(102, 84, 23, 0.89));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+

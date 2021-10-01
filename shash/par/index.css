@@ -1,0 +1,129 @@
+body{
+	background-image:url("images/index.jpg");
+	font-family: 'Times New Roman', Times, serif;
+	color:rgb(0, 0, 0);
+	background-size:cover;
+	background-attachment: fixed;
+	height:auto;
+   
+    
+}
+
+header{
+    font-size: 20px;
+	font-weight: 800px;
+    text-align: center;
+    display: block;
+	margin-top:35px;
+    font-weight:bold;
+    letter-spacing: 20px;
+	border-radius:5px;
+	background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(175, 179, 177));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+h2{
+	text-transform:uppercase;
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 20px;
+	color:rgb(32, 77, 54);
+
+
+}
+ul {
+	background:rgba(0, 0, 0, 0);
+	padding:20px;
+	text-align: right;
+	margin-bottom:30px;
+}
+li{
+	margin:19px;
+	display:inline;
+	text-decoration: none;
+	padding:20px;
+	background:rgba(109, 112, 98, 0.548);
+	border-radius: 10px;
+}
+
+li:hover{
+	background:rgba(218, 238, 153, 0.438);
+}
+
+a{
+	text-decoration: none;
+	color:rgb(255, 255, 255);
+	font-weight:bold;
+}
+a:hover{
+	color:rgb(14, 49, 73);
+}
+
+.info {
+    
+	border-radius:15px;
+	width:20%;
+	margin:50px auto;
+	padding: 5px;
+	outline: none;
+	background:rgba(111, 116, 67, 0.3);
+    color:rgb(9, 59, 31);
+    font-style: italic;
+    text-align: center;
+	font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+}
+
+.search{
+	text-align: center;
+
+}
+
+.container {
+	position:relative;
+	width: 50%;
+  }
+  
+  .image {
+	opacity: 1;
+	display: block;
+	width: 70%;
+	height:70%;
+	transition: .5s ease;
+	margin-left:50px ;
+	backface-visibility: hidden;
+  }
+  
+  .middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+  }
+  
+  .container:hover .image {
+	opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+	opacity: 1;
+  }
+  
+  .text {
+	background-color: rgba(109, 112, 98, 0.548);
+	color: white;
+	margin-left: 110px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 16px 32px;
+  }
